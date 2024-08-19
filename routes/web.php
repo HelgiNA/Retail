@@ -7,6 +7,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/np', function () {
-    return view('nai');
+Route::get('/contoh', function () {
+    return "contoh berhasil";
 });
